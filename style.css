@@ -1,0 +1,25 @@
+body {
+  background-color: #f8f9fa75;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+.disco {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+#grid-nav li{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-decoration: none;
+    padding: 10px;
+}
