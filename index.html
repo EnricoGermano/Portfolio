@@ -12,7 +12,7 @@
   <header>
     <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark" id = 'grid-nav'>
         <div class="container-fluid">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav" id="nav">
             <li class="nav-item">
               <a class="nav-link active" href="#sobre">Apresentação</a>
             </li>
@@ -33,12 +33,12 @@
         <hr class="d-sm-none">
     </nav>
   </header>
-  <body>
-    <div class="container mt-5">
+  <main>
+    <section class="container mt-5">
       <div class="row">
         <div class="col-sm-4" id="sobre">
           <h2>Sobre mim</h2>
-          <img src="./img/pfp.jpg" class="img" alt="pfp">
+          <img src="./img/pfp.png" class="img" alt="pfp">
           <p><b>Nome:</b> Enrico de Chiara Germano</p>
           <p><b>Idade:</b> 20 anos</p>
           <p><b>Formação:</b></p>
@@ -49,7 +49,7 @@
           <p>Busco desenvolver minha carreira na área de tecnologia, aplicando e aprimorando meus conhecimentos em desenvolvimento de software. Meu objetivo é contribuir para projetos inovadores, utilizando habilidades técnicas e criativas para resolver problemas e entregar soluções eficientes. Estou comprometido com o aprendizado contínuo e com a construção de uma trajetória profissional sólida no setor de TI.
           </p>
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-8" id="curriculo">
           <h2>Currículo</h2>
           <ul><li><h5>Formação Acadêmica:</h5></li></ul>
             <ul style="list-style-type:circle;">
@@ -59,10 +59,11 @@
             </ul>
           <ul><li><h5>Certificações:</h5></li></ul>
             <ul style="list-style-type:circle;">
-              <li>Certificação em Inglês para Negócios pela Milestones International College</li>
-              <li>Certificação em Inglês Avançado pelo ICBEU</li>
-              <li>Certificação em JavaScript pela Fundação Bradesco</li>
-              <li>Certificação em Java pela Ektro</li>
+              <li>Certificado de Inglês para Negócios pela Milestones International College</li>
+              <li>Certificado de Inglês Avançado pelo ICBEU</li>
+              <li>Certificado de JavaScript pela Fundação Bradesco</li>
+              <li>Certificado de Java pela Ektro</li>
+              <li>Certificação de Participação da Maratona de Programação FATEC 2025</li>
             </ul>
             <ul><li><h5>Competências Técnicas:</h5></li></ul>
             <ul style="list-style-type:circle;">
@@ -78,21 +79,26 @@
               <li><p><b>Tecnologias Utilizadas:</b> Colab, Python, Pandas, Matplotlib, HTML, CSS</p></li> 
               <li><p><b>Desafio:</b> Reduzir o tempo de processamento</p></li>
               <li><p><b>Solução:</b> Conversão do tipo das variáveis e remoção de valores vazios e duplicados </p></li>
-              <li><p><b>Link para o Código:</b> <a href="https://github.com/EnricoGermano/DSM---Projeto-de-API-1-Semestre">Repositório GitHub</a></p></li>
+              <li><p><b>Link para o Projeto: </b> <a href="https://github.com/EnricoGermano/DSM---Projeto-de-API-1-Semestre">Repositório do GitHub</a></p></li>
             </ul>
 
             <h2 class="mt-5" id="Trabalhos">Trabalhos Acadêmicos</h2>
             <ul><li><h5>Trabalho de Conclusão de Curso - TCC</h5></li></ul>
             <ul style="list-style-type:circle;">
               <li><p><b>Título: YourTruck - Site de aluguel de serviços de mudança</b> </p></li>
-              <li><p><b>Resumo:</b> O site permite encontrar motoristas de caminhões ou grandes veículos para realizar mudanças ou fretes.</p></li> 
+              <li><p><b>Resumo:</b> YourTruck é um site de aluguel de serviços de mudança, parecido com o Uber, desenvolvido como projeto de TCC. O site permite encontrar motoristas de caminhões ou grandes veículos para realizar mudanças ou fretes.</p></li> 
+              <li>
+                <p><b>Link para o Projeto: </b><a href="https://github.com/EnricoGermano/YourTruck">Repositório do GitHub</a></p>
+              </li>
         </div>
       </div>
-    </div>
-  </body>
-  <div class="mt-5 p-4 bg-dark text-white text-center">
-    <p>Footer</p>
-  </div>
+    </section>
+  </main>
+  <footer class="mt-5 p-4 bg-dark text-white text-center" id="Contato">
+    <a href="https://github.com/EnricoGermano">GitHub</a>
+    <a href="https://br.linkedin.com/in/enrico-de-chiara-germano-022894204">LinkedIn</a>
+    <a href="mailto:enricogerano@hotmail.com">Email</a>
+  </footer>
 </body>
 </html>
 

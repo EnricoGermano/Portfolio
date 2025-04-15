@@ -1,6 +1,13 @@
 body {
   background-color: #f8f9fa75;
+}
+main{
   padding: 50px;
+}
+@media (max-width: 768px) {
+  #nav {
+    display: none;
+  }
 }
 .navbar {
   margin-bottom: 20px;
@@ -16,11 +23,16 @@ body {
 .img {
   width: 100%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 70%;
 }
 #grid-nav li{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    text-decoration: none;
     padding: 10px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  color: blue;
+  border-bottom: 2px solid blue;
 }
