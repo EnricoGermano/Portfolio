@@ -1,10 +1,10 @@
-# Flask Portfolio
+Portfólio Flask
+Este projeto é uma aplicação web simples feita com Flask que exibe uma página de portfólio. O portfólio apresenta informações pessoais, formação acadêmica, habilidades e projetos.
 
-This project is a simple Flask web application that serves a portfolio webpage. The portfolio showcases personal information, education, skills, and projects.
-
-## Project Structure
-
-```
+Estrutura do Projeto
+cpp
+Copiar
+Editar
 flask-portfolio
 ├── app
 │   ├── static
@@ -14,50 +14,47 @@ flask-portfolio
 │   └── app.py
 ├── requirements.txt
 └── README.md
-```
+Instruções de Configuração
+Clone o repositório:
 
-## Setup Instructions
+bash
+Copiar
+Editar
+git clone <url-do-repositório>
+cd flask-portfolio
+Crie um ambiente virtual:
 
-1. **Clone the repository:**
-   ```
-   git clone <repository-url>
-   cd flask-portfolio
-   ```
+nginx
+Copiar
+Editar
+python -m venv venv
+Ative o ambiente virtual:
 
-2. **Create a virtual environment:**
-   ```
-   python -m venv venv
-   ```
+No Windows:
 
-3. **Activate the virtual environment:**
-   - On Windows:
-     ```
-     venv\Scripts\activate
-     ```
-   - On macOS/Linux:
-     ```
-     source venv/bin/activate
-     ```
+Copiar
+Editar
+venv\Scripts\activate
+No macOS/Linux:
 
-4. **Install the required packages:**
-   ```
-   pip install -r requirements.txt
-   ```
+bash
+Copiar
+Editar
+source venv/bin/activate
+Instale os pacotes necessários:
 
-## Running the Application
+nginx
+Copiar
+Editar
+pip install -r requirements.txt
+Executando a Aplicação
+Para executar a aplicação Flask, rode o seguinte comando no terminal:
 
-To run the Flask application, execute the following command in the terminal:
-
-```
+bash
+Copiar
+Editar
 python app/app.py
-```
+A aplicação estará acessível em http://127.0.0.1:5000/.
 
-The application will be accessible at `http://127.0.0.1:5000/`.
-
-## Usage
-
-Once the application is running, you can navigate to the homepage to view the portfolio. The page includes sections for personal information, education, skills, and projects.
-
-## License
-
-This project is licensed under the MIT License.
+Uso
+Com a aplicação em execução, acesse a página inicial para visualizar o portfólio. A página inclui seções com informações pessoais, formação, habilidades e projetos.
