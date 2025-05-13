@@ -13,7 +13,6 @@ flask-portfolio
 │   │   └── index.html
 │   └── app.py
 ├── requirements.txt
-└── README.md
 ```
 
 ## Instruções de Configuração
