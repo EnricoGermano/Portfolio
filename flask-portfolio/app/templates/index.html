@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head>e
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio</title>
@@ -42,7 +42,7 @@
       <div class="row">
         <div class="col-sm-4" id="sobre">
           <h2>Sobre mim</h2>
-          <img src="./img/pfp.jpg" class="img" alt="pfp">
+          <img src="{{ url_for('static', filename='/img/pfp.jpg') }}" class="img" alt="pfp">
           <p><b>Nome:</b> Enrico de Chiara Germano</p>
           <p><b>Idade:</b> 20 anos</p>
           <p><b>Formação:</b></p>
@@ -75,18 +75,13 @@
               <li>Framework: Flask, React e Bootstrap</li>
               <li>Ferramentas: MySQL, Github, Colab e VSCode</li>
             </ul>
-
-            <h2 class="mt-5" id="projetos">Principais Projetos</h2>
-            <ul><li><h5>Sistema de Análise de dados comerciais - API 1º Semestre, 2025</h5></li></ul>
+            <ul><li><h5>Idiomas:</h5></li></ul>
             <ul style="list-style-type:circle;">
-              <li><p><b>Descrição:</b> Desenvolvi um sistema para Análise de dados comerciais do estado de São Paulo</p></li>
-              <li><p><b>Tecnologias Utilizadas:</b> Colab, Python, Pandas, Matplotlib, HTML, CSS</p></li> 
-              <li><p><b>Desafio:</b> Reduzir o tempo de processamento</p></li>
-              <li><p><b>Solução:</b> Conversão do tipo das variáveis e remoção de valores vazios e duplicados </p></li>
-              <li><p><b>Link para o Projeto: </b> <a href="https://github.com/EnricoGermano/DSM---Projeto-de-API-1-Semestre">Repositório do GitHub</a></p></li>
-            </ul>
-
-            <h2 class="mt-5" id="Trabalhos">Trabalhos Acadêmicos</h2>
+              <li>Português - Nativo</li>
+              <li>Inglês - Avançado</li>
+              
+            <a href="{{ url_for('static', filename='cv/EnricoGermano_CV.pdf') }}" class="btn btn-dark" download>Baixar Currículo</a>
+              <h2 class="mt-5" id="Trabalhos">Trabalhos Acadêmicos</h2>
             <ul><li><h5>Trabalho de Conclusão de Curso - TCC</h5></li></ul>
             <ul style="list-style-type:circle;">
               <li><p><b>Título: YourTruck - Site de aluguel de serviços de mudança</b> </p></li>
@@ -94,11 +89,39 @@
               <li>
                 <p><b>Link para o Projeto: </b><a href="https://github.com/EnricoGermano/YourTruck">Repositório do GitHub</a></p>
               </li>
+            <h2 class="mt-5" id="projetos">Principais Projetos</h2>
+            <ul><li><h5>Sistema de Análise de dados comerciais - API 1º Semestre, 2025</h5></li></ul>
+            <ul style="list-style-type:circle;">
+              <img src="{{ url_for('static', filename='img/projeto1.png') }}" alt="Project Screenshot" class="img-fluid">
+              <li><p><b>Descrição:</b> Desenvolvimento um sistema para Análise de dados comerciais do estado de São Paulo</p></li>
+              <li><p><b>Tecnologias Utilizadas:</b> Colab, Python, AWS, Pandas, Plotly, HTML, CSS</p></li> 
+              <li><p><b>Contribuição:</b> Reduzir o tempo de processamento, Implementação na nuvem</p></li>
+              <li><p><b>Link para o Projeto: </b> <a href="http://18.209.24.144:5000/">Site no AWS</a></p></li>
+              <li><p><b>Link para o Repositório: </b> <a href="https://github.com/EnricoGermano/DSM---Projeto-de-API-1-Semestre">Repositório do GitHub</a></p></li>
+            </ul>
         </div>
+      </div>
+      <div class="container mt-5" id="Contato">
+      <h2>Contato</h2>
+      <form action="/send-email" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
       </div>
     </section>
   </main>
-  <footer class="mt-5 p-4 bg-dark text-white text-center" id="Contato">
+  <footer class="mt-5 p-4 bg-dark text-white text-center">
     <a href="https://github.com/EnricoGermano">GitHub</a>
     <a href="https://br.linkedin.com/in/enrico-de-chiara-germano-022894204">LinkedIn</a>
     <a href="mailto:enricogerano@hotmail.com">Email</a>
