@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 80px; /* Adjust for fixed navbar */
+}
+
+h2 {
+    color: #343a40;
+}
+
+footer {
+    background-color: #343a40;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+#img {
+  max-width: 60%;
+  height: auto; 
+  border-radius: 70%;
+  display: block; 
+  margin: 0 auto; 
+}
+
+/* Geral */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Estilo para cada seção */
+.section {
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #f8f9fa; /* Fundo claro */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Títulos */
+.section h2 {
+  margin-bottom: 20px;
+  color: #343a40; /* Cor escura */
+  text-align: center;
+  border-bottom: 2px solid #6c757d; /* Linha abaixo do título */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Listas */
+.section ul {
+  padding-left: 20px;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+}
+
+/* Botão */
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Contato */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Geral */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Estilo para cada seção */
+.section {
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #f8f9fa; /* Fundo claro */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Títulos */
+.section h2 {
+  margin-bottom: 20px;
+  color: #343a40; /* Cor escura */
+  text-align: center;
+  border-bottom: 2px solid #6c757d; /* Linha abaixo do título */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Listas */
+.section ul {
+  padding-left: 20px;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+}
+
+/* Botão */
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Contato */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
