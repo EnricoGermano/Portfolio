@@ -17,9 +17,6 @@ header {
     font-weight: bold;
 }
 
-.container {
-    margin-top: 80px; /* Adjust for fixed navbar */
-}
 
 h2 {
     color: #343a40;
